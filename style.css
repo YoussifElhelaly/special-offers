@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.time {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.time span {
+    display: block;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.time span:last-child {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.subscribe-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    font-size: 1rem;
+}
+
+.subscribe-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #ff6f61;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.subscribe-form button:hover {
+    background: #ff4a3d;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.social-button i {
+    margin-right: 10px;
+}
+
+.facebook {
+    background: #1877f2;
+}
+
+.facebook:hover {
+    background: #165dbb;
+}
+
+.instagram {
+    background: #e4405f;
+}
+
+.instagram:hover {
+    background: #c13554;
+}
