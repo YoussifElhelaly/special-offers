@@ -32,8 +32,12 @@ p {
 
 .countdown {
     display: flex;
-    justify-content: space-between;
+    width: fit-content;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-bottom: 40px;
+    gap: 5px;
 }
 
 .time {
